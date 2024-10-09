@@ -1,15 +1,16 @@
 main {
     min-height: calc(100vh - 160px);
   }
+/* estilos para cuando se despliegan las imagenes */
   #contenedor {
     display: flex;
-    flex-wrap: wrap; /* Hace que las tarjetas pasen a la siguiente fila si no caben en la actual */
-    gap: 20px; /* Espacio entre las tarjetas */
-    justify-content: center; /* Centra las tarjetas horizontalmente */
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
   }
   
   .card {
-    width: 300px; /* Ajusta el ancho de cada tarjeta */
-    flex-grow: 1; /* Hace que las tarjetas crezcan de forma proporcional si hay más espacio */
+    width: 300px; 
+    flex-grow: 1; 
   }
   
